@@ -1,0 +1,2 @@
+## Web-APIs homework number 4
+This is a timed quiz testing your knowledge of a small part of the culinary world. you will have 75 seconds to answer 5 questions. Google is allowed but you have you be quick. If a question is answered incorrectly, there will be a five second time penalty and you will move on to the next question. The score will be tallied at the end and saved to local storage. 
