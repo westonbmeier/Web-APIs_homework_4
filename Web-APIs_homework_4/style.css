@@ -84,7 +84,7 @@ h3 {
     transition: 100ms; 
 }
 
-.choice-container{
+.choices{
     display: flex; 
     font-size: 2rem;
     width: 100%; 
@@ -95,7 +95,7 @@ h3 {
     margin: 5px auto; 
 }
 
-.choice-container:hover{
+.choices:hover{
     cursor: pointer;
     box-shadow: 0.5rem 1rem 0 #80defa;
     transform: translateY(-0.2rem);
@@ -103,14 +103,61 @@ h3 {
 
 }
 
-.choice-prefix{
-    padding: 2.0rem 2.0rem;
-    background-color: #042d3a;
-    color: ghostwhite; 
-    margin: 0; 
+
+.choices.text{
+    padding: 2.5rem; 
+    margin-left: 5px;
 }
 
-.choice.text{
-    padding: 1.5rem; 
-    margin-left: 5px;
+.correctAnswer{
+    display: flex; 
+    font-size: 2rem;
+    width: 100%; 
+    text-align: center;
+    border: 0.1rem solid black; 
+    color: #042d3a; 
+    background-color: ghostwhite;
+    margin: 5px auto; 
+}
+
+#timer{
+    display: flex; 
+    font-size: 2rem;
+    width: 10%; 
+    text-align: center; 
+    color: #042d3a; 
+    background-color: ghostwhite;
+    margin: 5px auto; 
+}
+
+.complete{
+    display: flex; 
+    font-size: 2rem;
+    width: 40%; 
+    text-align: center;
+    color: #042d3a; 
+    background-color: ghostwhite;
+    margin: 5px auto; 
+}
+
+.name{
+    display: flex; 
+    font-size: 2rem;
+    width: 40%; 
+    text-align: center;
+    color: #042d3a; 
+    background-color: ghostwhite;
+    margin: 5px auto; 
+}
+
+.submit-button{
+    display: flex; 
+    font-size: 2rem;
+    width: 10%; 
+    text-align: center;
+    color: #042d3a; 
+    background-color: ghostwhite;
+    margin: 5px auto; 
+    margin-left: 5px; 
+    cursor: pointer;
 }
